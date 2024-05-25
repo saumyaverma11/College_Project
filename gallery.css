@@ -1,0 +1,28 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /* overflow-x: hidden; */
+
+}
+    
+::-webkit-scrollbar {
+    display: none;
+}
+
+.gallery-container{
+    width:100%;
+    display: grid;
+    margin:3em 3em 2em 0em;
+
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    column-gap: 5px;
+    row-gap:2em;
+}
+.item{
+    display: flex;
+    justify-content: center;
+}
+.item img{
+    width: 500px;
+    height: 330px;
+}

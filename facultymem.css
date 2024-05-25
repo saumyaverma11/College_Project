@@ -1,0 +1,113 @@
+body{
+    overflow: hidden;
+}
+.container{
+    width: 100%;
+    background: linear-gradient(to top,#f3f3f3 30%, #fff 30%);
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+@keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+.leftbox hr{
+    width: 100%;
+    opacity: .5;
+    height: 1px;
+    animation: slideIn 1s ease-out;
+}
+.leftbox h3{
+    font-family: "Asap Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #000;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  animation: slideIn 1s ease-out;
+}
+.leftbox p{
+    color: #303030c4;
+    margin-bottom: 3px;
+    font-size: 1.2rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    animation: slideIn 1s ease-out;
+}
+.leftbox span{
+    display: block;
+    color: #303030c4;
+    font-style: italic;
+    font-size: .9em;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    animation: slideIn 1s ease-out;
+
+}
+.leftbox .info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80px 100px;
+    row-gap: 2rem;
+    column-gap: 1.5rem;
+    margin-top: 30px;
+    animation: slideIn 1s ease-out;
+
+}
+.leftbox .info .item p{
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    color: #000;
+    font-style: normal;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.leftbox .info .item span{
+    color: #303030c4;
+    font-size: 1rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.leftbox .info .item span#ex{
+    font-family: "Asap Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.8rem;
+    word-spacing: 3px;
+}
+.rightbox {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    border: #000;
+    animation: slideIn 1s ease-out;
+
+}
+.rightbox img{
+    width: 70%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+.rightbox hr{
+    margin-top: 0;
+    height: 5px;
+    border-radius: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

@@ -1,0 +1,206 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.main-container{
+   
+    background-color: rgb(240, 239, 239);
+    padding:1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+.plantation{
+    width:fit-content;
+    height:fit-content;
+    margin:3em 3em 3em 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:1em;
+    padding:1em 1em 1em 1em;
+    background-color: white;
+
+
+}
+.left-content{
+    display:flex;
+    flex-direction: column;
+    gap:1em;
+
+}
+.planting1{
+    width:900px;
+    height:750px;
+    padding:6px;
+
+}
+.plant-content{
+    display: flex;
+    flex-direction: column;
+    gap:0.5em;
+    align-items: center;
+}
+.activity-heading{
+    font-size: 20px;
+    color:rgb(12, 12, 65);
+    font-weight: 500;
+}
+.about-activity{
+    font-size: 26px;
+    color: orangered;
+    font-weight: 500;
+}
+.right-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right-content img{
+     width:450px;
+     height:280px;
+     padding:6px;
+}
+
+.seminar-activities{
+    width:1390px;
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1em;
+
+    background-color: white;
+    margin:2em 2.5em 3em 3em;
+    padding:0em 1em 1em 1em;
+}
+.seminar-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:1em;
+}
+.seminar-img{
+    display: flex;
+    justify-content: center;
+}
+.seminar-img img{
+    width:650px;
+    height:400px;
+    padding:1em;
+}
+
+.awarded-activities{
+    width: 1390px;
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1em;
+
+    background-color: white;
+    margin:2em 2.5em 3em 3em;
+    padding:0em 1em 1em 1em;
+}
+
+.awarded-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:1em;
+}
+
+.awarded-img-container{
+    width:1300px;
+    height:fit-content;
+    display: flex;
+    flex-direction: row;
+    gap:1.2em;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    border-radius: 1em;
+    border: 2px solid gray;
+    
+}
+
+.awarded-img-container img{
+    width:400px;
+    height:350px;
+    transition: all 0.8s;
+    z-index: 111;
+}
+
+.awarded-img-container img:hover{
+    transform: scale(1.075);
+}
+
+.vishkarma-jayanti{
+    width: 1390px;;
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1em;
+
+    background-color: white;
+    margin:2em 2.5em 3em 3em;
+    padding:0em 1em 1em 1em;
+}
+
+.celebrated-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:1em;
+}
+
+.jayanti-imgs{
+    width:fit-content;
+    height:700px;
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+    overflow-y:scroll ;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+
+}
+
+.jayanti-imgs img{
+    width:500px;
+    height:350px;
+    transition: all 0.8s;
+}
+.jayanti-imgs img:hover{
+    transform: scale(1.075);
+}
+
+.workshop-container{
+    width: 1390px;
+    height:fit-content;
+    margin:3em 3em 3em 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:1em;
+    padding:1em 1em 1em 1em;
+    background-color: white;
+}
+
+.workshop-content{
+    display: flex;
+    flex-direction: column;
+    gap:0.5em;
+    align-items: center;
+}

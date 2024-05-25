@@ -1,0 +1,353 @@
+*{
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(240, 239, 239);
+    background-size: cover;
+    background-position: center;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.main-content {
+    width: 100%;
+    height: fit-content;
+
+}
+
+.courses {
+    width: 100%;
+    height: 8rem;
+    background-color: orangered;
+    padding: 1.3rem;
+    color: white;
+    font-size: 30px;
+
+
+}
+
+.bca {
+    text-align: center;
+
+}
+.course-details {
+    width: 1350px;
+    height: fit-content;
+    margin: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:1rem;
+    
+
+}
+
+.info-area {
+    width:15rem;
+    display: flex;
+   padding: 10px;;
+       background-color: white;
+    gap:1em;
+}
+
+.vertical-bar {
+    width: 3px;
+    height: 3.2em;
+    background-color: gray;
+
+}
+.course-info-content{
+    display: flex;
+    flex-direction: column;
+
+    gap:0.5em;
+}
+.course-info-heading{
+    font-size: 19px;
+    font-weight: 600;
+    color:black;
+
+}
+.info-detail{
+    font-size: 15px;
+    color: rgba(46, 44, 44, 0.952);
+
+}
+
+.program-info-container{
+    width:1360px;
+    height:fit-content;
+    display: flex;
+    justify-content: space-around;
+    margin:1rem;
+    padding:1em;
+
+}
+
+.about-program{
+    width:900px;
+    padding:1rem;
+
+}
+.program-heading{
+    font-size: 21px;
+    font-weight: 600;
+    color:black;
+    padding:7px;
+
+}
+.about-content{
+    padding:1em;
+    font-size: 16px;
+    color:rgb(36, 35, 35);
+}
+
+.about-fees{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap:1em;
+    padding-top: 2em;
+    color:white;
+    transition: all 1s;
+    animation: rotatefees 1s ease-in ;
+    animation-iteration-count: 1;
+
+
+}
+.color-content{
+    padding:0.5em 4em 1em;
+    background-color: orangered;
+
+}
+.fee-heading{
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    padding:10px;
+
+}
+
+@keyframes rotatefees{
+    0%{
+        transform:rotateX(90deg);
+    }
+    50%{
+        transform: rotateX(180deg);
+    }
+    
+}
+
+.pg-rupee{
+  text-align: center;
+}
+
+.admission-container{
+    display: flex;
+    margin:2em 1em;
+    padding:2rem 1rem;
+    justify-content: space-around;
+    gap:1rem;
+}
+.img{
+    width:800px;
+}
+.admission-lab-img{
+    width:800px;
+    height:500px;
+}
+
+.admission-info{
+    display: flex;
+    flex-direction: column;
+    gap:10rem;
+    padding:6em 0em;
+
+}
+
+.eligibility{
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+    padding-left:1em;
+    
+}
+.admission-process{
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+    padding-left:1em;
+}
+.eligibility-crieteria{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: underline;
+    color:black;
+}
+.admission-heading
+{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: underline;
+    color:black;
+}
+
+.eli-info{  
+    font-size: 18px;
+    color:rgb(60, 60, 60);
+
+}
+.admission-happend-info{
+    font-size: 18px;
+    color:rgb(60, 60, 60);
+}
+
+.pdf-container{
+    margin:2rem;
+    padding:1rem;
+    width:1365px;
+    height:fit-content;
+    display: flex;
+    flex-direction:column;
+}
+
+.pdf-heading{
+    font-size: 20px;
+    font-weight: 600;
+    color:black;
+    padding:1em 1em 5px 1em;
+
+}
+
+.year-pdf{
+    background-color: white;
+    padding:2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-left:4em;
+}
+
+.pdf-link{
+    text-align: center;
+    font-size: 17px;
+    padding-top:12px;
+    padding-bottom:12px;
+    padding-left:12px;
+    color: rgb(11, 97, 11);
+    text-decoration: none;
+}
+
+.program-outcome-container{
+    width:1350px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    margin:2rem;
+}
+
+.p-o-main-heading{
+    font-size: 25px;
+    margin-left:2em;
+    font-weight: 600;
+    color: black;
+
+
+}
+.p-o-details{
+    width:1300px;
+    margin:1rem 3rem;
+    padding:1.5rem;
+    background-color: orangered;
+    display: flex;
+    flex-direction: column;
+    gap:2em;
+    color:white;
+}
+
+.diff-section{
+    display: flex;
+    flex-direction: row;
+    gap:2em;
+    padding:0em 1em;
+}
+.p-o-content{
+    width:50%;
+}
+
+.p-o-heading{
+
+    font-size: 21px;
+    font-weight: 600;
+    color:white;
+    padding:0.6em 1em;
+}
+.program-o{
+    font-size: 17px;;
+    padding-left:1.2em;
+}
+
+
+.career-path-container{
+    width:1360px;
+    margin:2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:2em;
+
+}
+.career-container-img{
+    display: flex;
+    justify-self: center;
+}
+.career-container-img img{
+    width:850px;
+    height:450px;
+}
+.career-path-detail{
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+    padding-left:1em;
+    margin-right:2em;
+}
+.career-heading{
+    font-size: 21px;
+    font-weight: 600;
+    color: black;
+    padding-left:2em;
+    margin-top:2.5em;
+
+    
+}
+.point{
+   height:12px;
+   width:12px;
+   border-radius:5px;
+   background-color: orangered;
+}
+.path-detail{
+    display: flex;
+    flex-direction: column;
+    padding-left:2em;
+    margin:1em;
+    gap:1.5em;
+    font-size: 18px;
+    color: rgb(56, 55, 55);
+}
+.path-plus-point{
+    display: flex;
+    flex-direction: row;
+    gap:1em;
+    align-items: center;
+}

@@ -1,0 +1,256 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+body{
+    background-color: rgb(240, 239, 239);
+    overflow-x: hidden;
+}
+.main-container{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1 {
+    width: 1380px;
+    margin: 1em 0em 2em 2em;
+    padding: 1em 1em 0em 1em;
+    display: grid;
+    gap: 1rem;
+    background-color: white;
+
+
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.lab-main-heading{
+    width:100%;
+   text-align: center;
+    padding:0.7em;
+    font-size: 34px;
+   color:black;
+   font-weight: 600;
+
+}
+.header {
+    display: grid;
+    grid-template-columns: 300px 500px 420px;
+    column-gap: 1.5em;
+    grid-template-rows: 1fr;
+    background-color: orangered;
+    padding:1em 2em;
+
+}
+.des-head{
+    display: flex;
+    justify-content: center;
+}
+.lab-info{
+   display: flex;
+   flex-direction: row;
+   padding:1em 1em 1em 2em; 
+  
+   
+   
+}
+.lab-name{
+    width:300px;
+    height:fit-content;
+    font-size: 18px;
+    
+    
+}
+
+.tools{
+    width:500px;
+    font-size: 18px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+.description{
+    width:500px;
+    font-size: 18px;;
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding-left:3em;
+    list-style-type: none; 
+}
+.fa-hand-point-right{
+    color:orangered;
+    padding-right:12px;
+}
+
+.lab-images{
+    width:1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0em 2em 4em 5em;
+    gap:5px;
+    margin-top:-1em;
+}
+
+.lab-images img{
+    width:400px;
+    height:350px;
+    transition: all 0.9s;
+}
+
+.lab-images img:hover{
+   transform: scale(1.075);
+
+}
+.img-content{
+    display: flex;
+    flex-direction: column;
+    gap:2em;
+    font-size: 20px;
+    font-weight: 600;
+    color: orangered;
+    text-align: center;
+}
+
+.lab-num{
+    padding-top:-2em;;
+    position: relative;
+    font-size: 80px;
+    -webkit-text-stroke: 1px white;
+    top:1.5em;
+    right:1.7em;
+    color:black;
+    z-index:2;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: all 0.9s;
+
+}
+.lab-num:hover{
+    transform: scale(1.074);
+}
+.library-main-heading{
+    width:100%;
+    height:fit-content;
+   text-align: center;
+    font-size: 34px;
+   color:black;
+   font-weight: 600;
+}
+
+.library-container{
+    width:1370px;
+    height:fit-content;
+    margin:2rem;
+    padding:1em;
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+    background-color: white;
+}
+.library-row{
+    display: flex;
+    flex-direction: row;
+    gap:1em;
+}
+.library-img img{
+    width:700px;
+    height:350px;
+   
+    margin:1em;
+    
+}
+
+.library-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding:1em;
+    margin:2em;
+    font-size: 21px;
+    color:rgb(13, 13, 82);
+}
+
+.seminar-halls{
+    width:1370px;
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+    padding:1em;
+    margin:2em;
+    background-color: white;
+    margin-bottom: 0;
+    padding-bottom: 3em;
+}
+.seminar-images{
+    display: flex;
+    flex-direction: row;
+    gap:1em;
+    justify-content: center;
+}
+.seminar-images img{
+    width:600px;
+    height:330px;
+   
+}
+.seminar-content{
+    text-align: center;
+    font-size: 21px;
+    color: rgb(14, 14, 67);
+    padding:1.3em;
+}
+
+.classroom-facilities-container{
+    width:97%;
+    margin:1em;
+    padding:1em;
+    background-color: white;
+
+}
+
+.classroom-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:3em;
+    margin:2em 1em;
+}
+
+.classroom-content{
+    width:50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:2em;
+    font-size: 22px;
+    color:orangered;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.classroom-images{
+    height:500px;
+    width:500px;
+    overflow-y: scroll;
+    overflow-x:hidden;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    scroll-behavior: smooth;
+
+}
+
+.classroom-images img{
+    width:500px;
+    height:400px;
+}
