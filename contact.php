@@ -59,11 +59,11 @@
             <div class="info">
                 <div>
                     <span><ion-icon name="location-outline"></ion-icon></span>
-                    <p> SS Collage Shahjahanpur, UTTAR PRADESH, INDIA</p>
+                    <p> SS College Shahjahanpur, UTTAR PRADESH, INDIA</p>
                 </div>
                 <div>
                     <span><ion-icon name="mail-outline"></ion-icon></span>
-                    <a href="#">SS collage@gmail.com</a>
+                    <a href="#">SS college@gmail.com</a>
                 </div>
                 <div>
                     <span><ion-icon name="call-outline"></ion-icon></span>
