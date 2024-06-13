@@ -1,3 +1,9 @@
+<?php
+    include 'partials/_dbconnect.php';
+    $sql= "SELECT * FROM `faculty` Where `name`= 'Rajat Singh';";
+    $result= mysqli_query($conn,$sql);
+    $row= mysqli_fetch_assoc($result);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,28 +19,28 @@
     <?php require "partials\_navfaculty.php"?>
     <div class="container">
         <div class="leftbox">
-            <h3>Rajat Singh</h3>
-            <p>Department of Computer Science</p>
-            <span>Assistant Professor</span>
+            <h3><?php echo $row['name']?></h3>
+            <p><?php echo $row['department']?></p>
+            <span><?php echo $row['designation']?></span>
             <hr>
             <div class="info">
                 <div class="item">
                     <p>Department</p>
-                    <span>Department of Computer Science</span>
+                    <span><?php echo $row['department']?></span>
                 </div>
                 <div class="item">
                     <p>Qualification</p>
-                    <span>MCA</span>
+                    <span><?php echo $row['qualification']?></span>
                 </div>
                 <div class="item">
                     <p>Experience</p>
-                    <span id="ex">16 Years and 11 Months</span>
+                    <span id="ex"><?php echo $row['experience']?></span>
                 </div>
             </div>
             <hr>
         </div>
         <div class="rightbox">
-            <img src="Images/Rajat .jpg" alt="">
+            <img style="width: 70%;" src="Images/Rajat .jpg" alt="">
             <hr>
         </div>
     </div>
