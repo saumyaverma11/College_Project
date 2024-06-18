@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,21 +8,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
 </head>
-
 <body>
-   
     <?php require 'partials/_navcourse.php'?>
     <div class="main-content">
-
         <div class="courses">
-
             <div class="bca">BACHELOR OF COMPUTER APPLICATION</div>
         </div>
-
-
-
         <div class="course-details">
             <div class="program-code info-area">
                 <div class="vertical-bar"></div>
@@ -31,7 +22,6 @@
                     <div class="course-info-heading">Program Code</div>
                     <div class="info-detail">BCA 001</div>
                 </div>
-
             </div>
             <div class="duration info-area">
                 <div class="vertical-bar"></div>
@@ -56,10 +46,7 @@
                 </div>
             </div>
         </div>
-
-
         <div class="program-info-container">
-
             <div class="about-program">
                 <div class="program-heading">ABOUT THE PROGRAMME -</div>
                 <div class="about-content">BCA full form is Bachelor of Computer Applications. BCA is a three year
@@ -85,28 +72,21 @@
                 </div>
             </div>
         </div>
-
-
-
-
         <div class="admission-container">
             <div class="img">
                 <img class="admission-lab-img" src="Assest/Images/lab_img.jpeg">
             </div>
             <div class="admission-info">
-
                 <div class="eligibility">
                     <div class="eligibility-crieteria">Eligibility Crieteria</div>
                     <div class="eli-info">50% in 10+2 with Maths</div>
                 </div>
-
                 <div class="admission-process">
                     <div class="admission-heading">Admission Procedure</div>
                     <div class="admission-happend-info">Admission happend only by department</div>
                 </div>
             </div>
         </div>
-
         <div class="pdf-container">
             <div class="pdf-heading">PROGRAMME STRUCTURE</div>
             <div class="all-bca-pdfs">
@@ -128,12 +108,8 @@
                     <a class="pdf-link" href="third-year.php?file=Assest/Pdfs/BCA_SYLLABUS-3-Year" target="_blank">3rd
                         Year</a>
                 </div>
-
             </div>
-
         </div>
-
-
         <div class="program-outcome-container">
             <div class="p-o-main-heading">
                 Program Outcome (PO)-
@@ -192,7 +168,6 @@
                         <div class="program-o">Apply ethical principles and commit to professional ethics and
                             responsibilities and norms of the engineering practice.</div>
                     </div>
-
                 </div>
                 <div class="diff-section">
                     <div class="p-o-content">
@@ -208,7 +183,6 @@
                             receive clear instructions.</div>
                     </div>
                 </div>
-
                 <div class="diff-section">
                     <div class="p-o-content">
                         <div class="p-o-heading">Project management and finance(PO11)</div>
@@ -222,12 +196,8 @@
                             independent and lifelong learning in the broadest context of technological change.</div>
                     </div>
                 </div>
-
             </div>
-
         </div>
-
-
         <div class="program-outcome-container graduate-program">
             <div class="p-o-main-heading">
                 THE GRADUATES OF THE PROGRAMME WILL ATTAIN:
@@ -259,8 +229,6 @@
                 </div>
             </div>
         </div>
-
-
         <div class="career-path-container">
             <div class="career-path-detail">
                 <div class="career-heading">
@@ -284,22 +252,14 @@
                     </div>
                     <div class="path-plus-point">
                         <div class="point"></div><div class="path--des">IT Manager</div>
-                    </div>
-                
+                    </div>        
                 </div>
             </div>
             <div class="career-container-img">
                 <img src="Assest/Images/career-path.jpg">
             </div>
         </div>
-        
     </div>
     <?php require 'partials/footer.php'?>
-
-
-
-
-
 </body>
-
 </html>

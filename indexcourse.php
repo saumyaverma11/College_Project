@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Courses</title>
-
     <style>
         *{  
             margin: 0;
@@ -17,7 +16,6 @@
         ::-webkit-scrollbar {
             display: none;
         }
-
         .container{
             background-color: rgb(240, 239, 239);
         }
@@ -41,11 +39,8 @@
         .graduate{
             font-size: 30px;
             font-weight: 500;
-            padding:2rem;
-            
-
+            padding:2rem;   
         }
-
         .sec{
             text-decoration: none;
             color: white;;
@@ -63,13 +58,9 @@
             display: flex;
             flex-direction: column;
             gap:4rem;
-            padding:2em;
-            
-           
+            padding:2em  
         }
-
         .course-short-info{
-           
             width:1310px;
             height:200px;
             padding:2em;
@@ -79,32 +70,22 @@
             box-shadow: 1px 4px 4px gray;
             border-radius: 4px;
             background-color:white;
-    
-
         }
-
-
-
         .course-info{
             display: flex;
             flex-direction: column;
             gap:1em;
-
-
         }
-
         .code_duration{
             display: flex;
             flex-direction: row;
             gap:2em;
             padding:1em;
-            align-items: center;
-            
+            align-items: center;    
         }
         .part1{
             display:flex;
             gap:2em;
-
         }
         .part2{
             display:flex;
@@ -124,21 +105,16 @@
             color: rgb(51, 51, 51);
             font-size: 16px;
             padding-top:4px;
-        
-
         }
-
         .full-form{
             font-size: 25px;
             font-weight: 600;
             color:rgb(7, 7, 59);
             padding-left:1rem;
         }
-
         .view-detail-option{
             padding:1em 3em;
         }
-
         .click-detail{
             font-size: 17px;
             padding:9px 2em;
@@ -148,68 +124,55 @@
             border: none;
             position: relative;
             top:25px;
-            font-weight: 300;
-            
+            font-weight: 300;   
         }
         .click-detail a{
             color:white;
             text-decoration: none;
-
         }
-
-        @media screen and (min-width:1100px) and (max-width:1286px){
-            
-            .course-short-info{
-           width:1000px;
-           height:180px;
-       }
+        @media screen and (min-width:1100px) and (max-width:1286px){    
+           .course-short-info{
+                width:1000px;
+                height:180px;
+            }
         }
-
         @media screen and (max-width:1100px){
-            .course-short-info{
-               
+            .course-short-info{      
                width:810px;
                height:160px;
             }
-            }
-
+        }
         @media screen and (min-width:800px)and (max-width:931px){
             .course-short-info{
-           
-           width:700px;
-           height:150px;
-           padding:0.6em;
-
-
+                width:700px;
+                height:150px;
+                padding:0.6em;
             }
             .horizontal-bar{
-           display:none;
+                display:none;
+            }
+            .code_duration{
+                display: flex;
+                flex-direction: column;
+                gap:0.2em;
+                padding:0.5em;
+                justify-content: center;
+                align-items:start;
+            }
+            .full-form{
+                font-size: 20px;
+                font-weight: 600;
+                color:rgb(7, 7, 59);
+                padding-left:0.4rem;
+            }
         }
-        .code_duration{
-            display: flex;
-            flex-direction: column;
-            gap:0.2em;
-            padding:0.5em;
-            justify-content: center;
-            align-items:start;
-            
-        }
-        .full-form{
-            font-size: 20px;
-            font-weight: 600;
-            color:rgb(7, 7, 59);
-            padding-left:0.4rem;
-        }
-       }
 
        @media screen and (min-width:600px)and (max-width:800px){
-            .course-short-info{
-           
-           width:500px;
-           height:130px;
-           
+            .course-short-info{  
+                width:500px;
+                height:130px;    
+            }
         }
-    }
     </style>
 </head>
 <body>
@@ -218,23 +181,21 @@
     <div class="container">
         <div class="Programme">Programme</div>
         <div class="graduate-postg-section">
-
             <div class="graduate"><a class="sec" href="#graduate">Graduate Programme</a></div>
             <div class="post-graduate"><a class="sec" href="#post-graduate">Diploma Programme</a></div>
         </div>
         <div class="both-course-container">
-    
             <div class="course-short-info " id="graduate">
                 <div class="course-info">
                     <div class="code_duration">
                        <div class="part1">
-                       <div class="bold">Programm Code</div>
-                        <div class="cd-info">BCA-001</div>
-                       </div>
+                            <div class="bold">Programm Code</div>
+                            <div class="cd-info">BCA-001</div>
+                        </div>
                         <div class="horizontal-bar"></div>
                         <div class="part2">
-                        <div class="bold">Duration</div>
-                        <div class="cd-info">3 Years</div>
+                            <div class="bold">Duration</div>
+                            <div class="cd-info">3 Years</div>
                         </div>
                     </div>
                     <div class="full-form">Bachelor of Computer Applications</div>
@@ -247,13 +208,13 @@
                 <div class="course-info">
                     <div class="code_duration">
                         <div class="part1">
-                        <div class="bold">Programm Code</div>
-                        <div class="cd-info">PGDCA-001</div>
+                            <div class="bold">Programm Code</div>
+                            <div class="cd-info">PGDCA-001</div>
                         </div>
                         <div class="horizontal-bar"></div>
                         <div class="part2">
-                        <div class="bold">Duration</div>
-                        <div class="cd-info">1 Year</div>
+                            <div class="bold">Duration</div>
+                            <div class="cd-info">1 Year</div>
                         </div>
                     </div>
                     <div class="full-form">Post Graduate Diploma in Computer Application</div>

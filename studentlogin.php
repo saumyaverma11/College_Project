@@ -2,7 +2,6 @@
 $login = false;
 $showError = false;
 if($_SERVER["REQUEST_METHOD"] == "POST"){
-
     include 'partials/_dbconnect.php';
     $studentid = $_POST["studentid"];
     $password = $_POST["password"];
@@ -20,7 +19,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         $showError ="Invalid Credentials";
     }
 }
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -29,7 +27,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin|Login</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-
 </head>
 <style>
 body{
@@ -52,7 +49,6 @@ body{
   overflow: hidden;
   top: -50px;
 }
-
 .typewriter h1 {
   overflow: hidden;
   border-right: .15em solid orange;
@@ -63,26 +59,20 @@ body{
   letter-spacing: .15em;
   animation: typing 1.5s steps(40, end) forwards, blink-caret .75s step-end infinite;
 }
-
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% ;
+  from { width: 0; }
+  to { width: 100%; }
 }
-}
-
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange }
 }
-
-
 @keyframes typing-reverse {
   from { width: 100% }
   to { width: 0 }
 }
-
 .typewriter h1:nth-child(2) {
-  animation-delay: 4s; /* Delay for the next text */
+    animation-delay: 4s; /* Delay for the next text */
 }
 .form {
     width: 400px;
@@ -108,14 +98,11 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-
 }
-
 .form #frm.login{
     transition: transform .18s ease;
     transform: translateX(0);
 }
-
 .form .icon-close a{
     position: absolute;
     top: 0;
@@ -141,7 +128,6 @@ body{
     margin-right: auto;
     margin-bottom: 30px;
 }
-
 .form input{
     width: 300px;
     height: 35px;
@@ -156,23 +142,18 @@ body{
     margin-top: 30px;
     font-family: sans-serif;
 }
-
 .form input:focus{
     outline: none;
 }
-
 ::placeholder{
     color: #f7f3f3;
     font-family: Arial;
 }
-
 .btnn{
     width: 240px;
     height: 40px;
     background: #ff7200;
     border: none;
-    /* margin-left: %; */
-
     margin-top: 80px;
     font-size: 18px;
     border-radius: 10px;
@@ -189,40 +170,36 @@ body{
     background: #fff;
     color: #ff7200;
 }
-
-
 </style>
 <body>
-        <div class="typewriter">
-            <h1>Welcome Student...</h1>
-        </div>
-        <div class="form" id="form">
-            <span class="icon-close">
-                <a href="index.php"><ion-icon name="close"></ion-icon></a>
-            </span>
-            <div class="login" id="frm">
-                <div class="con">
-                    <ion-icon name="person-circle"></ion-icon>
-                </div>
-                <form id="login-form" action="/clg_project/studentlogin.php" method="post">
-                    <input type="text" id="studentid" name="studentid" placeholder="Enter Student Id Here">
-                    <input type="password" id="password" name="password" placeholder="Enter Password Here">
-                    <button class="btnn" type="submit">Login</button>
-                </form>
+    <div class="typewriter">
+        <h1>Welcome Student...</h1>
+    </div>
+    <div class="form" id="form">
+        <span class="icon-close">
+            <a href="index.php"><ion-icon name="close"></ion-icon></a>
+        </span>
+        <div class="login" id="frm">
+            <div class="con">
+                <ion-icon name="person-circle"></ion-icon>
             </div>
+            <form id="login-form" action="/clg_project/studentlogin.php" method="post">
+                <input type="text" id="studentid" name="studentid" placeholder="Enter Student Id Here">
+                <input type="password" id="password" name="password" placeholder="Enter Password Here">
+                <button class="btnn" type="submit">Login</button>
+            </form>
         </div>
+    </div>
     <?php
-     if($login){
-
-    echo  '<div class="alert alert-success alert-dismissible fade show" role="alert">
-            <strong>Success!</strong> You are logged in
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-            </button>
-         </div>';
+    if($login){
+        echo  '<div class="alert alert-success alert-dismissible fade show" role="alert">
+                <strong>Success!</strong> You are logged in
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>';
         }   
-     if($showError){
-
+    if($showError){
         echo  '<div class="alert alert-danger alert-dismissible fade show" role="alert">
             <strong>Error!</strong> '. $showError.'
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -231,8 +208,7 @@ body{
             </div>';
         }   
     ?>
-        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,15 +9,11 @@
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
   <?php require 'partials/_navfacilities.php' ?>
-
-
   <div class="main-container">
     <div class="lab-main-heading">LABORATORIES</div>
     <div class="container1">
-
       <div class="header">
         <h2>Lab Names</h2>
         <h2>Name of Tools & Programming Language</h2>
@@ -28,7 +23,6 @@
         <div class="lab-name">RDBMS</div>
         <div class="tools">My SQL</div>
         <div class="description">
-
           <li><i class="fa-solid fa-hand-point-right"></i>Creates a database for storing and manipulating data.</li>
           <li><i class="fa-solid fa-hand-point-right"></i>Defining the relationship of each table.</li>
           <li><i class="fa-solid fa-hand-point-right"></i>Clients can make requests by typing specific SQL statements on
@@ -39,20 +33,17 @@
         <div class="lab-name">Office Automation</div>
         <div class="tools">MS Office</div>
         <div class="description">
-
           <li><i class="fa-solid fa-hand-point-right"></i>Learn how to use MS office applications in office work.</li>
           <li><i class="fa-solid fa-hand-point-right"></i>Creating professional quality documents, storing, organizing.
           </li>
           <li><i class="fa-solid fa-hand-point-right"></i>Analyzing information, performing Arithmetic operations and
             functions.</li>
-
         </div>
       </div>
       <div class="lab-info">
         <div class="lab-name">Computer Network Lab</div>
         <div class="tools">NS3 tool or Network simulator 3</div>
         <div class="description">
-
           <li><i class="fa-solid fa-hand-point-right"></i>Network simulator is a tool used for simulating the real world
             network on one computer by writing
             scripts in C++ or Python.</li>
@@ -64,7 +55,6 @@
         <div class="lab-name">Programming Lab</div>
         <div class="tools">C, C++, Java, and C Sharp with .Net Framework</div>
         <div class="description">
-
           <li><i class="fa-solid fa-hand-point-right"></i>Computers in the lab may run various operating systems such as
             Windows, Linux, or macOS, allowing students to work with different development environments and tools.</li>
           <li><i class="fa-solid fa-hand-point-right"></i> Students utilize IDEs and text editors to write, edit,
@@ -74,14 +64,12 @@
             on programming assignments, exercises, and projects that reinforce concepts learned in lectures and
             readings.
           </li>
-
         </div>
       </div>
       <div class="lab-info">
         <div class="lab-name">Web Technologies</div>
         <div class="tools">HTML, Javascript, Web Development</div>
         <div class="description">
-
           <li><i class="fa-solid fa-hand-point-right"></i>Used for developing web based software.</li>
           <li><i class="fa-solid fa-hand-point-right"></i>They include programming languages like HTML, CSS, and
             JavaScript, which define the structure,
@@ -91,11 +79,7 @@
             frameworks, facilitating dynamic content delivery and interactivity on websites.</li>
         </div>
       </div>
-
-
     </div>
-
-
     <div class="lab-images">
       <div class="img-content">
         <div class="lab-num">01</div><img src="Assest/Images/lab-first.JPG">Programming Lab(1)
@@ -107,12 +91,6 @@
         <div class="lab-num">03</div><img src="Assest/Images/lab_img.jpeg">Programming Lab(2)
       </div>
     </div>
-
-
-
-
-
-
     <div class="library-container">
       <div class="library-main-heading">
         LIBRARY
@@ -129,10 +107,6 @@
           journals, eBooks and reference works through our memberships of DelNet, INDEST, and EBSCO.</div>
       </div>
     </div>
-
-
-
-
     <div class="classroom-facilities-container">
       <div class="library-main-heading">
         CLASSROOM-FACILITIES
@@ -161,17 +135,11 @@
           <img src="Assest/Images/class12.jpg">
         </div>
       </div>
-
     </div>
-
-
-
-
     <div class="seminar-halls">
       <div class="library-main-heading">
         SEMINAR-HALLS
       </div>
-
       <div class="seminar-content">
         Swami Shukhdevanand has 2 well-designed Seminar Halls that are equipped with world-class audio-visual teaching
         aids. The Seminar Halls have comfortable seating for 100 and 400 students each and are used frequently for
@@ -184,10 +152,8 @@
         <img src="Assest/Images/seminar1.JPG">
         <img src="Assest/Images/seminar2.jpeg">
       </div>
-
     </div>
   </div>
   <?php require 'partials/footer.php' ?>
 </body>
-
 </html>

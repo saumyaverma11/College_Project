@@ -8,20 +8,16 @@
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lilita+One&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
     <?php require 'partials/_navhome.php'?>
     <div class="main" id="main">
-        </div>
+    </div>
         
-        <div class="content" id="content">
-            <div class="icon">
-                <img class="logo" src="https://sscollegespn.ac.in/wp-content/uploads/2023/12/Logo-2.png" alt="logo">
-            </div>
-            <h1>Computer Science</h1>
-            <!-- <h1><span>Science</span> </h1> -->
-            <h1>Department</h1>
-            
+    <div class="content" id="content">
+        <div class="icon">
+            <img class="logo" src="https://sscollegespn.ac.in/wp-content/uploads/2023/12/Logo-2.png" alt="logo">
         </div>
+        <h1>Computer Science</h1>
+        <h1>Department</h1>
     </div>
     <div class="main2" id="main2">
         <div class="par" id="par">
@@ -30,10 +26,9 @@
             <p>dynamic field of computer science. With a focus on hands-on learning and industry collaboration, </p>
             <p>we empower students to become skilled problem solvers and leaders in technology. Join us as we shape </p>
             <p>future of computing.</p>
-            
             <hr>
         </div>
-        </div>
+    </div>
     <div class="main3" id="main3">
     </div>
     <div class="main4" id="main4">

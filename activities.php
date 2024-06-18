@@ -7,11 +7,8 @@
     <link rel="stylesheet" href="activities.css">
 </head>
 <body>
-    
-
-   <?php require 'partials/_navactivities.php'?>
+    <?php require 'partials/_navactivities.php'?>
     <div class="main-container">
- 
         <div class="plantation">
             <div class="left-content">
                 <img src="Assest/Images/planting1.jpeg" alt="" class="planting1">
@@ -36,13 +33,10 @@
                 <img src="Assest/Images/seminar-activity2.JPG">
             </div>
         </div>
-
-
         <div class="awarded-activities">
             <div class="awarded-content">
                 <div class="about-activity">Awards funtion </div>
             </div>
-
             <div class="awarded-img-container">
                 <img src="Assest/Images/award1.JPG">
                 <img src="Assest/Images/award2.JPG">
@@ -55,12 +49,9 @@
                 <img src="Assest/Images/award9.jpg">
             </div>
         </div>
-
-
         <div class="vishkarma-jayanti">
             <div class="celebrated-content">
                 <div class="activity-heading">12 DECEMBER 2022</div>
-
                 <div class="about-activity">Celebrated Viswakram Jayanti</div>
             </div>
             <div class="jayanti-imgs">
@@ -71,16 +62,9 @@
                 <img src="Assest/Images/jayanti5.jpeg" alt="">
                 <img src="Assest/Images/jayanti6.jpg" alt="">
                 <img src="Assest/Images/jayanti7.jpg" alt="">
-
             </div>
-
-
         </div>
-        
-
-
         <div class="workshop-container">
-        
             <div class="right-content">
                 <img src="Assest/Images/workshop2.JPG">
                 <img src="Assest/Images/workshop3.JPG">
@@ -94,10 +78,7 @@
                 </div>
             </div>
         </div>
-
-
     </div>
     <?php require 'partials/footer.php'?>
-
 </body>
 </html>
