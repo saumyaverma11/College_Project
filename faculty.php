@@ -25,15 +25,15 @@
             Rajesh Saxena
         </a>
         <a href="sumit.php">
-            <img src="Images/Rajat alternat.jpg" alt="">
+            <img src="Images/Sumit Trivedi.jpeg" alt="">
             Sumit Kumar Trivedi
         </a>
         <a href="anamika.php">
-            <img src="Images/mam.jpg" alt="">
+            <img src="Images/Anamika Shukla.jpeg" alt="">
             Anamika Shukla
         </a>
         <a href="umesh.php">
-            <img src="Images/Rajat alternat.jpg" alt="">
+            <img src="Images/Umesh Singh Visen.jpeg" alt="">
             Umesh Singh Visen
         </a>
     </div>

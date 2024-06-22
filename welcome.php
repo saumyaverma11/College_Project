@@ -1,11 +1,10 @@
 <?php 
-session_start();
-if(!isset($_SESSION['loggedin'])|| $_SESSION['loggedin']!=1){
-    header("location: adminlogin.php");
-    exit;
-}
+    session_start();
+    if(!isset($_SESSION['loggedin'])|| $_SESSION['loggedin']!=1){
+        header("location: adminlogin.php");
+        exit;
+    }
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,11 +14,10 @@ if(!isset($_SESSION['loggedin'])|| $_SESSION['loggedin']!=1){
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-
 </head>
 <style>
     ::-webkit-scrollbar {
-    display: none;
+        display: none;
     }
     body{
         background-color: #f3f3f3;
@@ -49,17 +47,14 @@ if(!isset($_SESSION['loggedin'])|| $_SESSION['loggedin']!=1){
         text-align: center;
         animation: typing 1.5s steps(40, end) forwards, blink-caret .5s step-end infinite;
         margin-bottom: 30px;
-
     }
     @keyframes typing {
-    from { width: 0 }
-    to { width: 100% ;
+        from { width: 0 }
+        to { width: 100% }
     }
-    }
-
     @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: orange }
+        from, to { border-color: transparent }
+        50% { border-color: orange }
     }
     .container{
         display: grid;
@@ -76,11 +71,9 @@ if(!isset($_SESSION['loggedin'])|| $_SESSION['loggedin']!=1){
         grid-area: img;
         display: flex;
         align-items: center;
-        justify-content: center;
-        
+        justify-content: center;   
     }
-    img{
-        
+    img{   
         width: 600px;
         height: 600px;
         filter: drop-shadow(1px 1px 2px rgb(7, 7, 7));
@@ -96,7 +89,6 @@ if(!isset($_SESSION['loggedin'])|| $_SESSION['loggedin']!=1){
     }
     .item1{
         grid-area: item1;
-
     }
     .item2{
         grid-area: item2;
@@ -131,7 +123,6 @@ if(!isset($_SESSION['loggedin'])|| $_SESSION['loggedin']!=1){
         100%{
             transform: scale(1);
         }
-        
     }
     .item1:hover{
         transform: scale(1.1);
@@ -160,7 +151,6 @@ if(!isset($_SESSION['loggedin'])|| $_SESSION['loggedin']!=1){
         color: #fff;
         text-align: center;
         padding: 50px 60px;
-
     }
 </style>
 <body>
@@ -183,7 +173,6 @@ if(!isset($_SESSION['loggedin'])|| $_SESSION['loggedin']!=1){
         <div class="item4">
             <a href="logout.php">LOGOUT</a>
         </div>
-
     </div>
 </body>
 </html>

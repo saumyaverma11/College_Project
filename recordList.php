@@ -22,7 +22,6 @@
         background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(38,51,97,1) 0%, rgba(65,143,222,1) 79% );
         box-shadow: 0 0 10px #00000042;
         transform: scale(1.01);
-
     }
     button a{
         color: #fff;
@@ -39,8 +38,8 @@
         font-size: 5em;
     }
     ::-webkit-scrollbar {
-    display: none;
-}
+        display: none;
+    }
     .content-table{
         border-collapse: collapse;
         margin: 25px 0;
@@ -96,10 +95,10 @@
     $result= mysqli_query($conn,$sql);
     while($row=mysqli_fetch_assoc($result))
     {
-        ?>
+?>
         <tbody>
             <tr>
-                 <td><?php echo $row['sno']?></td>
+                <td><?php echo $row['sno']?></td>
                 <td><?php echo $row['first name']," ", $row['last name']?></td>
                 <td><?php echo $row['dob']?></td>
                 <td><?php echo $row['gender']?></td>
@@ -113,10 +112,9 @@
                 <td><?php echo $row['student id']?></td>
                 <td><?php echo $row['password']?></td>
             </tr>
-        </tbody>
-            
-            <?php
+        </tbody>            
+<?php
     }
-    ?>
+?>
 </body>
 </html>
