@@ -34,7 +34,7 @@
             <hr>
         </div>
         <div class="rightbox">
-            <img src="Images/mam.jpg" alt="">
+            <img style="width: 70%;" src="Images/mam.jpg" alt="">
             <hr>
         </div>
     </div>

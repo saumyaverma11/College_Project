@@ -12,7 +12,6 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,9 +20,7 @@
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="contact.css">
-
 </head>
-
 <body>
     <?php require 'partials/_navcontact.php'?>
     <div class="main-container">
@@ -70,16 +67,15 @@
                     <a href="tel:+918303771407">+91 830 377 1407</a>
                 </div>
             </div>
-
             <div class="contact-map"><iframe
                     src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3527.508027005128!2d79.89161926496276!3d27.855660492255275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sss%20college%20shahjahanpur!5e0!3m2!1sen!2sin!4v1713200271824!5m2!1sen!2sin"
                     style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
     </div>
     <?php require 'partials/footer.php'?>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
-
 </html>

@@ -6,12 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
     <link rel="stylesheet" href="gallery.css">
-
 </head>
-<body style="background: #f3f3f3;">
-    
+<body style="background: #f3f3f3;"> 
     <?php require 'partials/_navgallery.php'?>
-
     <div class="gallery-container">
         <div class="item">
             <img src="Assest/Gallery-Img/gallery-pic1.jpg" >
@@ -231,6 +228,5 @@
         </div>
     </div>
     <?php require 'partials/footer.php'?>
-
 </body>
 </html>
